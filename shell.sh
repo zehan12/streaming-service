@@ -23,4 +23,4 @@ django-admin startproject movies .
 python3 manage.py runserver
 
 # create app for videos
-manage.py startapp videos
+python3 manage.py startapp videos
