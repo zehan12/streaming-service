@@ -12,3 +12,15 @@ pip freeze > requirements.txt
 
 # install dependencies from file
 pip install -r /path/to/requirements.txt
+
+# create src folder then go inside src
+mkdir src && cd src
+
+# create django app
+django-admin startproject movies .
+
+# run server 
+python3 manage.py runserver
+
+# create app for videos
+manage.py startapp videos
