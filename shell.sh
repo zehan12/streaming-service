@@ -39,3 +39,7 @@ python3 manage.py makemigrations
 
 # make migrate 
 python3 manage.py migrate
+
+# run test on videos
+python3 manage.py test videos
+
