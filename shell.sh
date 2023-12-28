@@ -30,3 +30,12 @@ python3 manage.py makemigrations
 
 # migrate
 python3 manage.py migrate     
+
+# create super user
+python3 manage.py createsuperuser
+
+# make migration again
+python3 manage.py makemigrations
+
+# make migrate 
+python3 manage.py migrate
